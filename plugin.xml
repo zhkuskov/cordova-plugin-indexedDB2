@@ -19,7 +19,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
   </platform>
 
   <platform name="android">
-    <js-module src="www/IndexedDBShim.min.js" name="IndexedDBShim">
+    <js-module src="www/indexeddbshim.min.js" name="IndexedDBShim">
       <runs />
     </js-module>
     <asset src="www/indexeddbshim.min.js.map" target="plugins/cordova-plugin-indexeddb2/www/indexeddbshim.min.js.map" />
